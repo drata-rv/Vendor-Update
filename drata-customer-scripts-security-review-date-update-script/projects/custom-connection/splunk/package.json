@@ -1,0 +1,16 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/main.ts"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "description": "Splunk Logger API Client",
+  "devDependencies": {
+    "@types/node": "^22.15.28",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

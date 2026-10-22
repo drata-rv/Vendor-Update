@@ -1,0 +1,16 @@
+{
+  "name": "security-review-date-update",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bulk-update Vendor Security Review last-review dates from a CSV via the Drata public API v2.",
+  "main": "update-security-review-dates.js",
+  "scripts": {
+    "dry-run": "node update-security-review-dates.js --csv ./dates.csv",
+    "apply": "node update-security-review-dates.js --csv ./dates.csv --apply"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5"
+  }
+}

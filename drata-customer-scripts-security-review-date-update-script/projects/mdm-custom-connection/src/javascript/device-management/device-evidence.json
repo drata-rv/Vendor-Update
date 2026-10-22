@@ -1,0 +1,14 @@
+{
+    "personnelId": 265,
+    "alias": "hannah-device",
+    "platformName": "MACOS",
+    "platformVersion": "15.5 (24F74)",
+    "serialNumber": "HRS-1234",
+    "antivirusEnabled": true,
+    "autoUpdateEnabled": true,
+    "firewallEnabled": true,
+    "passwordManagerEnabled": true,
+    "encryptionEnabled": true,
+    "screenLockEnabled": true,
+    "operatingSystem": "MACOS"
+}
